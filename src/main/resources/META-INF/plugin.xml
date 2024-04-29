@@ -127,7 +127,26 @@
                         text="Unescape HTML"
                         description="org.apache.commons.text.StringEscapeUtils#unescapeHtml4">
                 </action>
+
                 <separator/>
+                <action id="osmedile.intellij.stringmanip.SmartProcessMermaidAction"
+                        class="osmedile.intellij.stringmanip.escaping.SmartProcessMermaidAction"
+                        text="Smart Process Mermaid"
+                        description="org.apache.commons.text.StringEscapeUtils#smartPorcessMermaidCode">
+                    <keyboard-shortcut keymap="$default" first-keystroke="alt D"/>
+                </action>
+
+                <separator/>
+                <action id="osmedile.intellij.stringmanip.ConvertGBKSymbol"
+                        class="osmedile.intellij.stringmanip.escaping.ConvertGBKSymbol"
+                        text="Convert GBK Symbol"
+                        description="org.apache.commons.text.StringEscapeUtils#ConvertGBKSymbol">
+                    <keyboard-shortcut keymap="$default" first-keystroke="alt G"/>
+
+                </action>
+
+                <separator/>
+
                 <action id="osmedile.intellij.stringmanip.EscapeSQLAction"
                         class="osmedile.intellij.stringmanip.escaping.EscapeSQLAction"
                         text="Escape SQL"
